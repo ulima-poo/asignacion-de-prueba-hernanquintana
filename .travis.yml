@@ -7,6 +7,9 @@ cache:
   - $HOME/.gradle/caches/
   - $HOME/.gradle/wrapper/
 notifications:
-  slack:
+  email:
+    recipients:
+      - hdquintana@gmail.com
+      - hernan@jsatch.com
     on_success: always
     on_failure: always
